@@ -1,0 +1,22 @@
+{
+    "name": "yurineves92/csv",
+    "description": "Converting HTML to PDF with PHP and DomPDF",
+    "authors": [
+        {
+            "name": "Yuri Neves",
+            "email": "yurineves92@gmail.com"
+        }
+    ],
+    "autoload": {
+      "psr-4": {
+        "Source\\": "source/"
+      },
+      "files": [
+        "source/Config.php"
+      ]
+    },
+    "require": {
+      "coffeecode/datalayer": "1.1.*",
+      "dompdf/dompdf": "0.8.*"
+    }
+  }
